@@ -1,0 +1,34 @@
+{
+  "name": "com.studio23.ss2.savesystem.steam",
+  "version": "0.0.1",
+  "displayName": "SaveSystemExtention.Steam",
+  "description": "savesystem.steam is an extention product for savesystem.",
+  "unity": "2022.3",
+  "unityRelease": "9f1",
+  "documentationUrl": "https://openupm.com/packages/com.studio23.ss2.savesystem.steam",
+  "changelogUrl": "https://openupm.com/packages/com.studio23.ss2.savesystem.steam",
+  "licensesUrl": "https://opensource.org/license/mit/",
+  "scopedRegistries": [
+    {
+      "name": "Studio 23",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.studio23.ss2"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.facepunch.steamworks": "2.3.6",
+    "com.cysharp.unitask": "2.4.1"
+  },
+  "keywords": [
+    "Save System",
+    "Steamworks",
+    "Facepunch"
+  ],
+  "author": {
+    "name": "Studio 23",
+    "email": "contact@studio-23.xyz",
+    "url": "https://studio-23.xyz"
+  }
+}
