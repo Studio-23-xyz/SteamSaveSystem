@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://studio-23-xyz.github.io/SteamSaveSystem/api/Studio23.SS2.SaveSystem.Cloud.CloudSaveManager.html</loc>
+    <lastmod>2023-10-23T04:43:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/SteamSaveSystem/api/Studio23.SS2.SaveSystem.Cloud.html</loc>
+    <lastmod>2023-10-23T04:43:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/SteamSaveSystem/api/index.html</loc>
+    <lastmod>2023-10-23T04:43:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/SteamSaveSystem/index.html</loc>
+    <lastmod>2023-10-23T04:43:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/SteamSaveSystem/license/LICENSE.html</loc>
+    <lastmod>2023-10-23T04:43:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

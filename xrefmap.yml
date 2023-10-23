@@ -1,0 +1,21 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Studio23.SS2.SaveSystem.Cloud
+  name: Studio23.SS2.SaveSystem.Cloud
+  href: api/Studio23.SS2.SaveSystem.Cloud.html
+  commentId: N:Studio23.SS2.SaveSystem.Cloud
+  fullName: Studio23.SS2.SaveSystem.Cloud
+  nameWithType: Studio23.SS2.SaveSystem.Cloud
+- uid: Studio23.SS2.SaveSystem.Cloud.CloudSaveManager
+  name: CloudSaveManager
+  href: api/Studio23.SS2.SaveSystem.Cloud.CloudSaveManager.html
+  commentId: T:Studio23.SS2.SaveSystem.Cloud.CloudSaveManager
+  fullName: Studio23.SS2.SaveSystem.Cloud.CloudSaveManager
+  nameWithType: CloudSaveManager
+- uid: Studio23.SS2.SaveSystem.Cloud.CloudSaveManager.TargetPath
+  name: TargetPath
+  href: api/Studio23.SS2.SaveSystem.Cloud.CloudSaveManager.html#Studio23_SS2_SaveSystem_Cloud_CloudSaveManager_TargetPath
+  commentId: F:Studio23.SS2.SaveSystem.Cloud.CloudSaveManager.TargetPath
+  fullName: Studio23.SS2.SaveSystem.Cloud.CloudSaveManager.TargetPath
+  nameWithType: CloudSaveManager.TargetPath
