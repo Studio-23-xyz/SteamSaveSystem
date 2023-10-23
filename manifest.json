@@ -15,10 +15,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Studio23.SS2.SaveSystem.Cloud.CloudSaveManager.yml",
+      "source_relative_path": "api/Studio23.SS2.SaveSystem.Cloud.Editor.SteamCloudSaveInstaller.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Studio23.SS2.SaveSystem.Cloud.CloudSaveManager.html"
+          "relative_path": "api/Studio23.SS2.SaveSystem.Cloud.Editor.SteamCloudSaveInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.SaveSystem.Cloud.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.SaveSystem.Cloud.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.html"
         }
       },
       "version": ""
@@ -52,6 +72,29 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
         }
       },
       "version": ""
@@ -93,9 +136,16 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {

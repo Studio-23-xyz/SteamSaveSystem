@@ -1,18 +1,33 @@
 {
-  "api/Studio23.SS2.SaveSystem.Cloud.CloudSaveManager.html": {
-    "href": "api/Studio23.SS2.SaveSystem.Cloud.CloudSaveManager.html",
-    "title": "Class CloudSaveManager | |",
-    "keywords": "Class CloudSaveManager Namespace Studio23.SS2.SaveSystem.Cloud public class CloudSaveManager : MonoBehaviour Inheritance System.Object CloudSaveManager Fields TargetPath public string TargetPath Field Value string"
+  "api/Studio23.SS2.SaveSystem.Cloud.Editor.SteamCloudSaveInstaller.html": {
+    "href": "api/Studio23.SS2.SaveSystem.Cloud.Editor.SteamCloudSaveInstaller.html",
+    "title": "Class SteamCloudSaveInstaller | |",
+    "keywords": "Class SteamCloudSaveInstaller Namespace Studio23.SS2.SaveSystem.Cloud.Editor public class SteamCloudSaveInstaller : EditorWindow Inheritance System.Object SteamCloudSaveInstaller Methods ShowWindow() public static void ShowWindow()"
+  },
+  "api/Studio23.SS2.SaveSystem.Cloud.Editor.html": {
+    "href": "api/Studio23.SS2.SaveSystem.Cloud.Editor.html",
+    "title": "Namespace Studio23.SS2.SaveSystem.Cloud.Editor | |",
+    "keywords": "Namespace Studio23.SS2.SaveSystem.Cloud.Editor Classes SteamCloudSaveInstaller"
+  },
+  "api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.html": {
+    "href": "api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.html",
+    "title": "Class SaveSystemSteamCloudBehaviour | |",
+    "keywords": "Class SaveSystemSteamCloudBehaviour Namespace Studio23.SS2.SaveSystem.Cloud public class SaveSystemSteamCloudBehaviour : MonoBehaviour Inheritance System.Object SaveSystemSteamCloudBehaviour Methods OnEnable() public void OnEnable() Start() public void Start()"
   },
   "api/Studio23.SS2.SaveSystem.Cloud.html": {
     "href": "api/Studio23.SS2.SaveSystem.Cloud.html",
     "title": "Namespace Studio23.SS2.SaveSystem.Cloud | |",
-    "keywords": "Namespace Studio23.SS2.SaveSystem.Cloud Classes CloudSaveManager"
+    "keywords": "Namespace Studio23.SS2.SaveSystem.Cloud Classes SaveSystemSteamCloudBehaviour"
   },
   "api/index.html": {
     "href": "api/index.html",
     "title": "| |",
     "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "Changelog | |",
+    "keywords": "Changelog [Released] Added Initial release of the library. [0.1.1] - 2023-10-23 Added Basic features for Steam Cloud integration. Save and load data to/from Steam Cloud. Changed Updated documentation. Fixed Minor bug fixes."
   },
   "index.html": {
     "href": "index.html",
@@ -22,6 +37,11 @@
   "license/LICENSE.html": {
     "href": "license/LICENSE.html",
     "title": "| |",
-    "keywords": "MIT License Copyright (c) 2023 zubEpty Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "keywords": "MIT License Copyright (c) 2023 Studio-23 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "Features | |",
+    "keywords": "Studio23.SS2.SaveSystem.Cloud is a Unity library that enables seamless integration with Steam Cloud for saving and loading game data. This library simplifies the process of saving and retrieving game data to and from Steam Cloud for your Unity game. Features Steam Cloud Integration: Easily enable Steam Cloud support for your Unity game. Save and Load Data: Save and load game data to and from Steam Cloud effortlessly. Installation To use this library, follow these steps: Installation Instructions To install the Studio23.SS2.SaveSystem.Steam library via the Unity Package Manager, follow these steps: Step 1: Configure Scoped Registry Open Unity. Navigate to Edit > Project Settings > Package Manager. In the Package Manager settings, add or edit the existing OpenUPM entry as follows: Name: package.openupm.com URL: https://package.openupm.com Scope(s): com.cysharp.unitask com.facepunch.steamworks com.studio23.ss2.savesystem.steam Click Save or Apply to save your changes. Step 2: Access Package Manager In Unity, open the Unity Package Manager window: Go to Window > Package Manager. In the Package Manager window, click the \"+\" button. Select Add package by name... or Add package from git URL... based on your preference. Step 3: Install the Package In the input field for adding a package by name, paste the following package name: Usage Attach the SaveSystemSteamCloudBehaviour script to your game object. Or Install via Studio-23 > Save System > Install Steam Cloud Configure the Steam Cloud settings using the Unity Inspector: Enable or disable Steam Cloud support. Set your Steam Application ID. Specify the save file key. The library methods will save and load game data to and from Steam Cloud automatically."
   }
 }
