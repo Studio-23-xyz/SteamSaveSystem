@@ -32,35 +32,35 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.SaveSystem.Cloud.Editor.SteamCloudSaveInstaller.ShowWindow
   nameWithType: SteamCloudSaveInstaller.ShowWindow
-- uid: Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour
-  name: SaveSystemSteamCloudBehaviour
-  href: api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.html
-  commentId: T:Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour
-  fullName: Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour
-  nameWithType: SaveSystemSteamCloudBehaviour
-- uid: Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.OnEnable
+- uid: Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour
+  name: SaveSystemCloudBehaviour
+  href: api/Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.html
+  commentId: T:Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour
+  fullName: Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour
+  nameWithType: SaveSystemCloudBehaviour
+- uid: Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.OnEnable
   name: OnEnable()
-  href: api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.html#Studio23_SS2_SaveSystem_Cloud_SaveSystemSteamCloudBehaviour_OnEnable
-  commentId: M:Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.OnEnable
-  fullName: Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.OnEnable()
-  nameWithType: SaveSystemSteamCloudBehaviour.OnEnable()
-- uid: Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.OnEnable*
+  href: api/Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.html#Studio23_SS2_SaveSystem_Cloud_SaveSystemCloudBehaviour_OnEnable
+  commentId: M:Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.OnEnable
+  fullName: Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.OnEnable()
+  nameWithType: SaveSystemCloudBehaviour.OnEnable()
+- uid: Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.OnEnable*
   name: OnEnable
-  href: api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.html#Studio23_SS2_SaveSystem_Cloud_SaveSystemSteamCloudBehaviour_OnEnable_
-  commentId: Overload:Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.OnEnable
+  href: api/Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.html#Studio23_SS2_SaveSystem_Cloud_SaveSystemCloudBehaviour_OnEnable_
+  commentId: Overload:Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.OnEnable
   isSpec: "True"
-  fullName: Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.OnEnable
-  nameWithType: SaveSystemSteamCloudBehaviour.OnEnable
-- uid: Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.Start
+  fullName: Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.OnEnable
+  nameWithType: SaveSystemCloudBehaviour.OnEnable
+- uid: Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.Start
   name: Start()
-  href: api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.html#Studio23_SS2_SaveSystem_Cloud_SaveSystemSteamCloudBehaviour_Start
-  commentId: M:Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.Start
-  fullName: Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.Start()
-  nameWithType: SaveSystemSteamCloudBehaviour.Start()
-- uid: Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.Start*
+  href: api/Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.html#Studio23_SS2_SaveSystem_Cloud_SaveSystemCloudBehaviour_Start
+  commentId: M:Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.Start
+  fullName: Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.Start()
+  nameWithType: SaveSystemCloudBehaviour.Start()
+- uid: Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.Start*
   name: Start
-  href: api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.html#Studio23_SS2_SaveSystem_Cloud_SaveSystemSteamCloudBehaviour_Start_
-  commentId: Overload:Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.Start
+  href: api/Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.html#Studio23_SS2_SaveSystem_Cloud_SaveSystemCloudBehaviour_Start_
+  commentId: Overload:Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.Start
   isSpec: "True"
-  fullName: Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.Start
-  nameWithType: SaveSystemSteamCloudBehaviour.Start
+  fullName: Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.Start
+  nameWithType: SaveSystemCloudBehaviour.Start

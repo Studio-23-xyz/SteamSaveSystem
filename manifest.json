@@ -35,10 +35,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.yml",
+      "source_relative_path": "api/Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Studio23.SS2.SaveSystem.Cloud.SaveSystemSteamCloudBehaviour.html"
+          "relative_path": "api/Studio23.SS2.SaveSystem.Cloud.SaveSystemCloudBehaviour.html"
         }
       },
       "version": ""
