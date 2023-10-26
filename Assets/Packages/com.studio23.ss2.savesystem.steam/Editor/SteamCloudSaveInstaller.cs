@@ -24,7 +24,7 @@ namespace Studio23.SS2.SaveSystem.Cloud.Editor
                 Selection.activeObject = gameObject;
 
                 // Attach this script to the new GameObject
-                SaveSystemSteamCloudBehaviour script = gameObject.AddComponent<SaveSystemSteamCloudBehaviour>();
+                SaveSystemCloudBehaviour script = gameObject.AddComponent<SaveSystemCloudBehaviour>();
 
             }
         }

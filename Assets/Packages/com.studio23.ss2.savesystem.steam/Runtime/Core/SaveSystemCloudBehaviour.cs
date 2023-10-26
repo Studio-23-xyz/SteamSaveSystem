@@ -6,11 +6,11 @@ using UnityEngine;
 
 namespace  Studio23.SS2.SaveSystem.Cloud
 {
-    public class SaveSystemSteamCloudBehaviour : MonoBehaviour
+    public class SaveSystemCloudBehaviour : MonoBehaviour
     {
 
         [SerializeField]private bool _enableSteamCloud = true;
-        [SerializeField] private int _steamAppID = 4000;
+        [SerializeField]private uint _steamAppID = 4000;
         private string _saveBundlePath => Core.SaveSystem.Instance.SaveBundlePath;
         [SerializeField]private string _steamFileKey = "cloudSave";
 
@@ -20,7 +20,7 @@ namespace  Studio23.SS2.SaveSystem.Cloud
 
             try
             {
-                SteamClient.Init(4000);
+                SteamClient.Init(_steamAppID);
                 await LoadCloudData();
             }
             catch (Exception e)
