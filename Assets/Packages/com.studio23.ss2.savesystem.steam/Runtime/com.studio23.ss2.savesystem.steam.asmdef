@@ -2,10 +2,15 @@
     "name": "com.studio23.ss2.savesystem.steam",
     "rootNamespace": "",
     "references": [
-        "GUID:f51ebe6a0ceec4240a699833d6309b23",
-        "GUID:b85a516fe86321c44bbce182e5e09470"
+        "UniTask",
+        "com.studio23.ss2.cloudsave"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor",
+        "LinuxStandalone64",
+        "CloudRendering",
+        "WindowsStandalone64"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

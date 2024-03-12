@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0] - 2024-03-12
+
+### Added
+
+- Updated and implemented dependencies
+
+
 ## [Released]
 
 ### Added

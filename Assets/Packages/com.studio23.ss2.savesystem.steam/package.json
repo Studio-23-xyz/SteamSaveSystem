@@ -1,6 +1,6 @@
 {
   "name": "com.studio23.ss2.savesystem.steam",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "displayName": "SaveSystemExtention.Steam",
   "description": "savesystem.steam is an extention product for savesystem.",
   "unity": "2022.3",
@@ -22,7 +22,7 @@
   "dependencies": {
     "com.facepunch.steamworks": "2.3.6",
     "com.cysharp.unitask": "2.4.1",
-    "com.studio23.ss2.savesystem": "1.1.3"
+    "com.studio23.ss2.cloudsave": "2.0.2"
   },
   "keywords": [
     "Save System",

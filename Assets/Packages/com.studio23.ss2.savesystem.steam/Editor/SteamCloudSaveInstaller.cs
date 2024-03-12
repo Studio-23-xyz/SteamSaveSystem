@@ -1,3 +1,5 @@
+using System.IO;
+using Studio23.SS2.SaveSystem.Steam.Data;
 using UnityEditor;
 using UnityEngine;
 
@@ -5,28 +7,26 @@ namespace Studio23.SS2.SaveSystem.Cloud.Editor
 {
     public class SteamCloudSaveInstaller : EditorWindow
     {
-        [MenuItem("Studio-23/Save System/Install Steam Cloud")]
-        public static void ShowWindow()
+        [MenuItem("Studio-23/Save System/CloudProviders/Create Steam Provider")]
+        static void CreateDefaultProvider()
         {
-            // Get the existing open window or if none, create a new one
-            var window = GetWindow<SteamCloudSaveInstaller>("Steam Cloud Installer");
-            window.minSize = new Vector2(250, 100);
-        }
+            SteamCloudSaveProvider providerSettings = ScriptableObject.CreateInstance<SteamCloudSaveProvider>();
 
-        private void OnGUI()
-        {
-            GUILayout.Label("Install Steam Cloud Save", EditorStyles.boldLabel);
+            // Create the resource folder path
+            string resourceFolderPath = "Assets/Resources/SaveSystem/CloudProviders";
 
-            if (GUILayout.Button("Install"))
+            if (!Directory.Exists(resourceFolderPath))
             {
-                // Create an empty GameObject
-                var gameObject = new GameObject("SteamCloudSaveManager");
-                Selection.activeObject = gameObject;
-
-                // Attach this script to the new GameObject
-                SaveSystemCloudBehaviour script = gameObject.AddComponent<SaveSystemCloudBehaviour>();
-
+                Directory.CreateDirectory(resourceFolderPath);
             }
+
+            // Create the ScriptableObject asset in the resource folder
+            string assetPath = resourceFolderPath + "/CloudSaveProvider.asset";
+            AssetDatabase.CreateAsset(providerSettings, assetPath);
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+
+            Debug.Log("Default Cloud Provider created at: " + assetPath);
         }
     }
 }
