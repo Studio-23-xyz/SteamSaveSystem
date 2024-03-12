@@ -2,7 +2,8 @@
     "name": "com.studio23.ss2.savesystem.steam.editor",
     "rootNamespace": "",
     "references": [
-        "GUID:873f23b33feaa104188328d62091d806"
+        "com.studio23.ss2.savesystem.steam",
+        "com.studio23.ss2.cloudsave"
     ],
     "includePlatforms": [
         "Editor"

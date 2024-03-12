@@ -33,15 +33,6 @@
       },
       "url": "https://package.openupm.com"
     },
-    "com.studio23.ss2.upmassistant": {
-      "version": "1.0.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "3.2.1"
-      },
-      "url": "https://package.openupm.com"
-    },
     "com.unity.collab-proxy": {
       "version": "2.2.0",
       "depth": 0,
