@@ -1,4 +1,11 @@
-**Studio23.SS2.SaveSystem.Cloud** is a Unity library that enables seamless integration with Steam Cloud for saving and loading game data. This library simplifies the process of saving and retrieving game data to and from Steam Cloud for your Unity game.
+<h1 align="center">SaveSystem.Steam</h1>
+<p align="center">
+<a href="https://openupm.com/packages/com.studio23.ss2.savesystem.steam/"><img src="https://img.shields.io/npm/v/com.studio23.ss2.savesystem.steam?label=openupm&amp;registry_uri=https://package.openupm.com" /></a>
+
+</p>
+
+
+**Studio23.SS2.SaveSystem.Steam** is a Unity library that enables seamless integration with Steam Cloud for saving and loading game data. This library simplifies the process of saving and retrieving game data to and from Steam Cloud for your Unity game.
 
 ## Features
 
@@ -47,13 +54,7 @@ To install the **Studio23.SS2.SaveSystem.Steam** library via the Unity Package M
 
 ## Usage
 
-1. Attach the `SaveSystemSteamCloudBehaviour` script to your game object. Or Install via Studio-23 > Save System > Install Steam Cloud
+From top toolbar Studio-23 > Save System > Cloud Providers > Create Steam Cloud Provider
 
-2. Configure the Steam Cloud settings using the Unity Inspector:
 
-   - Enable or disable Steam Cloud support.
-   - Set your Steam Application ID.
-   - Specify the save file key.
-
-3. The library methods will save and load game data to and from Steam Cloud automatically.
 
