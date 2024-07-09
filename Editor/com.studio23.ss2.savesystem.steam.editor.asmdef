@@ -1,0 +1,19 @@
+{
+    "name": "com.studio23.ss2.savesystem.steam.editor",
+    "rootNamespace": "",
+    "references": [
+        "com.studio23.ss2.savesystem.steam",
+        "com.studio23.ss2.cloudsave"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

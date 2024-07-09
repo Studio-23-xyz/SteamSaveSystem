@@ -1,0 +1,37 @@
+{
+  "name": "com.studio23.ss2.savesystem.steam",
+  "version": "2.0.1",
+  "displayName": "Save System - Steam",
+  "description": "This is an extention product for savesystem to manage steam cloud.",
+  "unity": "2022.3",
+  "unityRelease": "9f1",
+  "documentationUrl": "https://studio-23-xyz.github.io/SteamSaveSystem/manual/",
+  "changelogUrl": "https://studio-23-xyz.github.io/SteamSaveSystem//changelog/CHANGELOG.html",
+  "licensesUrl": "https://studio-23-xyz.github.io/SteamSaveSystem/license/LICENSE.html",
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.studio23.ss2",
+        "com.cysharp.unitask",
+        "com.facepunch.steamworks"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.facepunch.steamworks": "2.3.6",
+    "com.cysharp.unitask": "2.4.1",
+    "com.studio23.ss2.cloudsave": "2.0.2"
+  },
+  "keywords": [
+    "Save System",
+    "Steamworks",
+    "Facepunch"
+  ],
+  "author": {
+    "name": "Studio 23",
+    "email": "contact@studio-23.xyz",
+    "url": "https://studio-23.xyz"
+  }
+}
