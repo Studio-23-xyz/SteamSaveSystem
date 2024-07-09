@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.1] - 2024-07-09
+
+### Updated
+
+- Updated Package Display Name for better readablity
+
 ## [2.0.0] - 2024-03-12
 
 ### Added
