@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.12]- 2024-08-08
+
+### Updated
+
+- Added Samples
+
+
 ## [2.0.1] - 2024-07-09
 
 ### Updated

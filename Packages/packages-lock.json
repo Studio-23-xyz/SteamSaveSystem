@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "com.cysharp.unitask": {
-      "version": "2.5.3",
-      "depth": 0,
+      "version": "2.5.4",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
@@ -14,6 +14,33 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.needle.console-hyperlinks": {
+      "version": "1.0.1-pre",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.studio23.ss2.authsystem": {
+      "version": "4.0.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.studio23.ss2.authsystem.steam": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.studio23.ss2.authsystem": "4.0.3",
+        "com.facepunch.steamworks": "2.3.6",
+        "com.cysharp.unitask": "2.5.3"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.studio23.ss2.cloudsave": {
       "version": "2.0.2",
       "depth": 0,
@@ -22,14 +49,15 @@
       "url": "https://package.openupm.com"
     },
     "com.studio23.ss2.savesystem": {
-      "version": "2.0.5",
+      "version": "2.1.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1",
-        "com.cysharp.unitask": "2.4.1",
-        "com.unity.sharp-zip-lib": "1.3.4-preview",
-        "com.studio23.ss2.cloudsave": "2.0.2"
+        "com.cysharp.unitask": "2.5.4",
+        "com.unity.sharp-zip-lib": "1.3.7-pre.1",
+        "com.studio23.ss2.cloudsave": "2.0.2",
+        "com.needle.console-hyperlinks": "1.0.1-pre"
       },
       "url": "https://package.openupm.com"
     },
@@ -115,7 +143,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.sharp-zip-lib": {
-      "version": "1.3.4-preview",
+      "version": "1.3.7-pre.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},

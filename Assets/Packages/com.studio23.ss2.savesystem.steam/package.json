@@ -1,6 +1,6 @@
 {
   "name": "com.studio23.ss2.savesystem.steam",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "displayName": "Save System - Steam",
   "description": "This is an extention product for savesystem to manage steam cloud.",
   "unity": "2022.3",

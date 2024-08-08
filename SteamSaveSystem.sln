@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.studio23.ss2.savesystem.steam", "com.studio23.ss2.savesystem.steam.csproj", "{AFC315C4-FA37-182E-3D1C-9F1F5624DD83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{56015267-A3A4-6764-B639-F2C00231AFBE}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.studio23.ss2.savesystem.steam.editor", "com.studio23.ss2.savesystem.steam.editor.csproj", "{A24ECB16-D35A-D172-BE88-8C03D253B14F}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{AFC315C4-FA37-182E-3D1C-9F1F5624DD83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC315C4-FA37-182E-3D1C-9F1F5624DD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC315C4-FA37-182E-3D1C-9F1F5624DD83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56015267-A3A4-6764-B639-F2C00231AFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56015267-A3A4-6764-B639-F2C00231AFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56015267-A3A4-6764-B639-F2C00231AFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56015267-A3A4-6764-B639-F2C00231AFBE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A24ECB16-D35A-D172-BE88-8C03D253B14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A24ECB16-D35A-D172-BE88-8C03D253B14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A24ECB16-D35A-D172-BE88-8C03D253B14F}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -2,8 +2,9 @@
   "dependencies": {
     "com.cysharp.unitask": "2.5.3",
     "com.facepunch.steamworks": "2.3.6",
+    "com.studio23.ss2.authsystem.steam": "1.0.0",
     "com.studio23.ss2.cloudsave": "2.0.2",
-    "com.studio23.ss2.savesystem": "2.0.5",
+    "com.studio23.ss2.savesystem": "2.1.9",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.textmeshpro": "3.0.6",
@@ -49,7 +50,8 @@
       "scopes": [
         "com.facepunch.steamworks",
         "com.studio23.ss2",
-        "com.cysharp.unitask"
+        "com.cysharp.unitask",
+        "com.needle.console-hyperlinks"
       ]
     }
   ]

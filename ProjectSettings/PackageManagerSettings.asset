@@ -33,6 +33,7 @@ MonoBehaviour:
     - com.facepunch.steamworks
     - com.studio23.ss2
     - com.cysharp.unitask
+    - com.needle.console-hyperlinks
     m_IsDefault: 0
     m_Capabilities: 0
     m_ConfigSource: 4
