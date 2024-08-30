@@ -1,13 +1,13 @@
 {
   "name": "com.studio23.ss2.savesystem.steam",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "displayName": "Save System - Steam",
   "description": "This is an extention product for savesystem to manage steam cloud.",
   "unity": "2022.3",
   "unityRelease": "9f1",
-  "documentationUrl": "https://studio-23-xyz.github.io/SteamSaveSystem/manual/",
-  "changelogUrl": "https://studio-23-xyz.github.io/SteamSaveSystem//changelog/CHANGELOG.html",
-  "licensesUrl": "https://studio-23-xyz.github.io/SteamSaveSystem/license/LICENSE.html",
+  "documentationUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/Assets/Packages/com.studio23.ss2.cloudsave/README.html",
+  "changelogUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/Assets/Packages/com.studio23.ss2.cloudsave/CHANGELOG.html",
+  "licensesUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/LICENSE.html",
   "scopedRegistries": [
     {
       "name": "package.openupm.com",
@@ -22,7 +22,7 @@
   "dependencies": {
     "com.facepunch.steamworks": "2.3.6",
     "com.cysharp.unitask": "2.4.1",
-    "com.studio23.ss2.cloudsave": "2.0.2"
+    "com.studio23.ss2.cloudsave": "2.0.3"
   },
   "keywords": [
     "Save System",
@@ -33,5 +33,10 @@
     "name": "Studio 23",
     "email": "contact@studio-23.xyz",
     "url": "https://studio-23.xyz"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave.git"
+  },
+  "license": "MIT"
 }

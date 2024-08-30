@@ -3,6 +3,7 @@ using System.Linq;
 using Cysharp.Threading.Tasks;
 using Steamworks;
 using Studio23.SS2.CloudSave.Data;
+using UnityEngine;
 
 namespace Studio23.SS2.SaveSystem.Steam.Data
 {
@@ -38,7 +39,6 @@ namespace Studio23.SS2.SaveSystem.Steam.Data
 
             foreach (var key in keys)
             {
-                //TODO: Check if it should be Key or slotname+key
                 saveDatas[key] = await DownloadFromCloud(slotName, key);
             }
 
@@ -46,17 +46,27 @@ namespace Studio23.SS2.SaveSystem.Steam.Data
 
         }
 
-        protected override UniTask<int> DeleteSlotFromCloud(string slotName)
+        protected override UniTask<int> DeleteSlotFromCloud(string slotName,string metafileName,string backupFileName)
         {
-            IEnumerable<string> slotItems = SteamRemoteStorage.Files.Where(r => r.Contains(slotName));
+            List<string> slotItems = SteamRemoteStorage.Files.ToList();
 
-            foreach (var item in slotItems)
+
+            foreach (string item in slotItems)
             {
-                if (!SteamRemoteStorage.FileDelete(item))
+                if (!item.Contains(slotName))
                 {
-                    return new UniTask<int>(-1);
+                    continue;
+                }   
+
+                if (SteamRemoteStorage.FileDelete(item))
+                {
+                    Debug.Log($"{item} Deleted from steam storage");
+                    continue;
                 }
+                return new UniTask<int>(-1);
             }
+
+           
 
             return new UniTask<int>(0);
         }

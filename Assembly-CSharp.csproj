@@ -937,6 +937,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="needle.ConsoleHyperlinks.Editor">
+      <HintPath>Library\ScriptAssemblies\needle.ConsoleHyperlinks.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UniTask.DOTween">
       <HintPath>Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>
       <Private>False</Private>
@@ -949,10 +953,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="needle.ConsoleHyperlinks.Editor">
-      <HintPath>Library\ScriptAssemblies\needle.ConsoleHyperlinks.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
@@ -961,16 +961,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UniTask.Linq">
@@ -1021,12 +1021,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="com.studio23.ss2.authsystem.steam">
-      <HintPath>Library\ScriptAssemblies\com.studio23.ss2.authsystem.steam.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="com.studio23.ss2.authsystem">
       <HintPath>Library\ScriptAssemblies\com.studio23.ss2.authsystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="com.studio23.ss2.authsystem.steam">
+      <HintPath>Library\ScriptAssemblies\com.studio23.ss2.authsystem.steam.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">

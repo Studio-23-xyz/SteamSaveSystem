@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.13]- 2024-08-30
+
+### Updated
+
+- Bug fixed for cloud delete
+
 ## [2.0.12]- 2024-08-08
 
 ### Updated
