@@ -1,0 +1,22 @@
+{
+    "name": "com.studio23.ss2.savesystem.steam",
+    "rootNamespace": "",
+    "references": [
+        "UniTask",
+        "com.studio23.ss2.cloudsave"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "LinuxStandalone64",
+        "CloudRendering",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
